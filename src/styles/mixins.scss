@@ -1,0 +1,17 @@
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin box-shadow($boxShadow) {
+	-moz-box-shadow: $boxShadow;
+	-webkit-box-shadow: $boxShadow;
+	box-shadow: $boxShadow;
+}
+
+@mixin transform($translate1, $translate2) {
+	-webkit-transform: translate($translate1, $translate2);
+	-ms-transform: translate($translate1, $translate2);
+	transform: translate($translate1, $translate2);
+}
